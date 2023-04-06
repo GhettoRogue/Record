@@ -7,15 +7,13 @@ using namespace std;
 int main() {
     string path = "output.dat";
 
-    // ‡ ―¨αμ Ά δ ©«
-
     int num_1, num_2;
-    cout << "‚Ά¥¤¨β¥ 1 η¨α«®: " << endl;
+    cout << "Input number1: " << endl;
     cin >> num_1;
-    cout << "‚Ά¥¤¨β¥ 2 η¨α«®: " << endl;
+    cout << "Input number2: " << endl;
     cin >> num_2;
 
-    cout << "“ª ¦¨β¥ ®―¥ΰ ζ¨ξ: + ¨«¨ - " << endl;
+    cout << "Chose operation: "+" or "-" " << endl;
     char userInput;
     cin >> userInput;
 
